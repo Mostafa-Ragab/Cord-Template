@@ -1,0 +1,347 @@
+body {
+    margin: auto 0;
+}
+.zone {
+    position: relative;
+    /* text-align: left; */
+    color: black;
+    margin: 0;
+    /* padding:30px 50px;
+    margin:40px 60px; */
+    /* cursor:pointer; */
+    /* display:inline-block; */
+    /* color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear; */
+}
+
+/***********************************************************************
+/* section 1 */
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    margin-left: auto;
+    /* text-align: right; */
+}
+button {
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+    .top-right {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        margin-left: auto;
+        /* text-align: right; */
+    }
+    button {
+        cursor: none;
+    }
+}
+
+.del {
+    display: block;
+}
+.background {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-items: flex-end;
+   
+}  
+  /* cover */
+.container {
+    height: 50vh;
+
+    /* writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center; */
+}
+.text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* trash  */
+/* .trash {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-image: url(trash-bin.png);
+} */
+
+/***********************************************************************
+/* section2 */
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 60px;
+    /* margin-top: 200px; */
+}
+
+
+.box  > img{
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    /* top: 450px; */
+    margin-top: 5px;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+}
+
+#trash-img {
+    margin-top: 0px;
+    right: 0;
+    width: 40%;
+    margin-left: auto;
+    height: 400px;
+}
+
+.top-right-about {
+    color: black;
+    position: absolute;
+    margin-top: 50px;
+    left: 650px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .top-right-about {
+        color: black;
+        position: absolute;
+        margin-top: 100px;
+        left: 200px;
+        margin-left: auto;
+    }
+}
+#consulting {
+    margin-top: 80px;
+    transform:rotate(-15deg);
+    left: 50px;
+    position: absolute;
+    text-align: left;
+}
+@media only screen and (max-width: 1000px) {
+    #consulting {
+        font-size: large;
+        margin-top: 10px;
+        transform:rotate(-15deg);
+        left: 20px;
+        position: absolute;
+        text-align: left;
+    }  
+}
+.bottomtotop {
+    transform:rotate(-6deg);
+    left: 50px;
+    line-height: 50px;
+    margin-top: -200px;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    width: 100%;
+ 
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed; */
+}
+
+
+.txt-body {
+
+    /* position: absolute;
+    margin-top: 580px;
+    text-align: center;
+    margin-left: 200px; */
+    /* top: 450px; */
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top:300px ;
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}
+.txt-mode {
+    writing-mode: horizontal-tb;
+    text-align: end;
+}
+
+/***********************************************************************
+/* adding footer */
+/* .footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    position: absolute;
+    margin-top: 10px;
+
+    background: rgb(8,32,52);
+    background: linear-gradient(90deg, rgba(8,32,52,1) 17%, rgba(11,44,69,1) 37%);
+    right: 0;
+    margin-left: auto;
+} */
+.grid-footer {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+    margin-top: 300px;
+    position: absolute;
+    right: 0;
+    width: 1000px;
+    margin-left: auto;
+    height: 400px;
+    background: rgb(8,32,52);
+    background: linear-gradient(90deg, rgba(8,32,52,1) 17%, rgba(11,44,69,1) 37%);
+    width: 60%;
+}
+
+
+.img-foot {
+    position: absolute;
+    margin-top: 70px;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    height: 330px;
+    margin-left: auto;
+}
+#news {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin-left: auto;
+}
+/* sectio{
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+
+} */
+
+/* .box-foo {
+    position: absolute;
+    top: 950px;
+    right: 0;
+    width: 60%;
+    margin-left: auto;
+} */
+
+/* .footer-container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+} */
+
+/* .container-box {
+    height: 80%;
+    width: 60%;
+    bottom: 0;
+    background: rgb(8,32,52);
+    background: linear-gradient(90deg, rgba(8,32,52,1) 17%, rgba(11,44,69,1) 37%);
+} */
+
+
+
+/* img.triangle { */
+    /* the polygon() function takes a comma-separated list
+       of x y positions in relation to the origin 0 0 point
+       (the top-left) of the element, using those points
+       to form a line from one to the next (and from the last
+       to the first): */
+    /* -webkit-clip-path: polygon(100%  100% , 0 0, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+} 
+
+
+*/
+/*
+.box > img {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    right: 0;
+    justify-items: flex-end;
+    margin-top: 20px;
+
+
+}
+.img-box {
+    height: 50vh;
+    width: auto;
+    right: 0px;
+    text-align:right;
+    float:right;
+    margin-left:100px;
+    clear:right;
+
+
+    /* background-position: right; */
+
+/* } */
+
+
+/* .container {
+    position: absolute;
+    top: 450px;
+    right: 0;
+    margin-left: auto;
+
+
+}
+/* .box-cont { */
+    /* position: absolute;
+    top: 100px;
+    right: 0;
+    margin-left: auto; */
+    /* height: 50vh; */
+    /* width: auto; */
+    /* right: 100px; */
+    /* text-align:center; */
+/* } */
+
+/* .top-right-about {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    margin-left: auto;
+} */
+/* .top-right-box {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    margin-left: auto;
+} */
+
+/* styling text */
+
+
+/*  
+.text-container {
+    position: absolute;
+    top: 450px;
+}
+#consulting {
+    transform:rotate(-6deg);
+    left: 50px;
+    line-height: 50px;
+    margin-top: -200px;
+    position: absolute;
+    text-align: left;
+    justify-content: left;
+    top: 50%;
+    width: 100%;
+} 
+
