@@ -6,18 +6,8 @@ html {
 }
 .zone {
     position: relative;
-    /* text-align: left; */
     color: black;
     margin: 0;
-    /* padding:30px 50px;
-    margin:40px 60px; */
-    /* cursor:pointer; */
-    /* display:inline-block; */
-    /* color:#FFF;
-    font-size:2em;
-    border-radius:4px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear; */
 }
 
 /***********************************************************************
@@ -29,7 +19,6 @@ html {
     right: 200px;
     margin-left: auto;
     font-size: 1.5em;
-    /* text-align: right; */
 }
 .button {
     cursor: pointer;
@@ -49,15 +38,12 @@ a {
         right: 0px;
         margin-left: auto;
         font-size: 1em;
-
-        /* text-align: right; */
     }
     .button {
         cursor: none;
         height: 25px;
         width: 100px;
         outline: none;
-
     }
 }
 .button {
@@ -75,11 +61,7 @@ a {
 .img-head {
     display: block;
     border-radius:0px 3% 100% 0;
-
-    /* clip-path: polygon(0 0, 100% 0, 100% 20%, 0 89%); */
     clip-path: polygon(0 0, 100% 0, 100% 16%, 0 100%);
-
-    /* clip-path: polygon(95% 0, 100% 25%, 33% 76%, 0 100%, 0 49%, 0% 0%); */
 }
 
 
@@ -88,10 +70,6 @@ a {
     width: 50%;
     height: 10%;
     margin-top: -36.8%;
-    /* display: flex; */
-    /* transform:rotate(-25deg); */
-    /* justify-items: flex-end; */
-    /* clip-path: polygon(0 80%, 100% 28%, 100% 43%, 0% 100%); */
     clip-path: polygon(0 69%, 100% 26%, 100% 45%, 0 86%);
 
     border-bottom-right-radius:100%;
@@ -112,9 +90,6 @@ a {
 .container {
     height: 50vh;
 
-    /* writing-mode: vertical-rl;
-    text-orientation: upright;
-    text-align: center; */
 }
 .text2 {
     display: flex;
@@ -122,26 +97,12 @@ a {
     justify-content: center;
 }
 
-
-
-/* trash  */
-/* .trash {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    background-image: url(trash-bin.png);
-} */
-
 /***********************************************************************
 /* section2 */
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     margin-top: 0;
-    /* margin-top: 200px; */
 }
 
 
@@ -151,7 +112,6 @@ a {
 
 .box {
     position: absolute;
-    /* top: 450px; */
     margin-top: 0px;
     right: 0;
     width: 50%;
@@ -193,7 +153,6 @@ a {
         position: absolute;
         margin-top: 30px;
         right: 5px;
-        /* left: 320px; */
         margin-left: auto;
         font-size: 0.7em;
     }
@@ -206,15 +165,15 @@ a {
     text-align: left;
     font-size: 2.5em;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     #consulting {
         font-size: large;
-        margin-top: -30px;
+        margin-top: -40px;
         transform:rotate(-26deg);
         left: 0px;
         position: absolute;
         text-align: left;
-        font-size: 1em;
+        font-size: 1.5em;
     }  
 }
 .bottomtotop {
@@ -226,24 +185,9 @@ a {
     text-align: left;
     top: 50%;
     width: 100%;
- 
-    /* writing-mode: vertical-rl;
-    text-orientation: mixed; */
 }
-/* 
-@media only screen and (min-width: 1000px) {
-    .txt-mode {
-        font-size: small;
-    }
-} */
 
 .txt-body {
-
-    /* position: absolute;
-    margin-top: 580px;
-    text-align: center;
-    margin-left: 200px; */
-    /* top: 450px; */
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-top:100px;
@@ -269,20 +213,8 @@ a {
 
 /***********************************************************************
 /* adding footer */
-/* .footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    position: absolute;
-    margin-top: 10px;
 
-    background: rgb(8,32,52);
-    background: linear-gradient(90deg, rgba(8,32,52,1) 17%, rgba(11,44,69,1) 37%);
-    right: 0;
-    margin-left: auto;
-} */
 .grid-footer {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
     margin-top: 50px;
     position: absolute;
     right: 0;
@@ -292,21 +224,7 @@ a {
     background: rgb(8,32,52);
     background: linear-gradient(90deg, rgba(8,32,52,1) 17%, rgba(11,44,69,1) 37%);
     width: 90%;
-    /* border-radius: 100% 0 0 0; */
-    /* border-radius: 83% 17% 0% 100% / 92% 10% 90% 8% */
-    ;
-    /* clip-path: polygon(83% 0, 100% 0, 100% 100%, 0 100%, 0 68%); */
-    /* clip-path: polygon(85% 5%, 100% 0, 100% 100%, 0 100%, 3% 85%); */
-    /* border-radius: 75% 26% 0% 7% / 79% 21% 10% 100% */
-    /* border-radius: 57% 57% 0% 10% / 50% 5% 100% 50% */
-    border-radius: 100% 0px 0px;
-
-
-    ;
-
-    /* border-radius:79% 21% 0% 100% / 94% 28% 72% 6%;  */
-    /* clip-path: polygon(100% 0%, 100% 47%, 100% 100%, 0 100%, 0 53%, 32% 17%); */
-
+    border-radius: 100% 0px 0px;;
 }
 
 
@@ -319,12 +237,6 @@ a {
     height: 400px;
     margin-left: auto;
     border-radius: 100% 0 0 0;
-    /* border-radius: 49% 91% 0% 100% / 100% 29% 100% 0%; */
-
-
-
-    /* clip-path: polygon(0 100%, 0 100%, 100% 0%, 100% 100%); */
-
 }
 #news {
     color: white;
